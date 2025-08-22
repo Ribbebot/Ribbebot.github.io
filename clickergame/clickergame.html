@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ClickerGame</title>
+    <style>
+         .button1{
+            font-size: 30px;
+            padding: 5%;
+            background-color: gainsboro;
+            border-radius: 15px;
+            margin-bottom: 20px;
+         }
+         #value{
+            font-size: 50px;
+         }
+         .upgrade-container {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px; 
+}
+         .upgrade {
+            width: 100px;
+            font-size: 30px;
+            background-color: gainsboro;
+            border-radius: 15px;
+            padding: 5%;
+}
+         .button2{
+            font-size: 30px;
+            padding: 5%;
+            background-color: gainsboro;
+            border-radius: 15px;
+         }
+         .all {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+         }
+      
+    </style>
+</head>
+<body>
+    <div class = "all">
+      <h1 id="value">0</h1>
+      <button class = "button1" id="clickbutton" onclick="addingvalue()">Click me</button>
+      <button class = "button2" id="upgrade" onclick="upgrade()">Upgrade</button>
+<div class="upgrade-container">
+    <p class="upgrade" id="upgradepriceText">Upgrade Price:</p>
+    <p class="upgrade" id="upgradeprice">5</p>
+  </div class= "all">
+    </div>
+</body>
+<script src="Clickerspel.js" defer></script>
+</html>
