@@ -9,68 +9,30 @@
              background-color: rgb(255, 255, 255);
              font-family: Arial, sans-serif
         }
-        #projects{
-            font-size: 35px;
-            position: absolute;
-            top: 15%;
-            right: 50%;
-        }
-        #Clicker{
-            font-size: 20px;
-            position: absolute;
-            top: 30%;
-            right: 50.5%;
-            color:blue;
-        }
         img{
-            width: 250px;
-            top: 30%;
-            right: 45%;
-            position: absolute;
+            display: block;
+            margin-bottom: 10px;
+            width: 100%;
         }
-        #homepage{
-            font-size: 35px;
-            position: absolute;
-            top: -1%;
-            right: 94%;
-            color: black;
-        }
-        #login{
-            font-size: 20px;
-            position: absolute;
-            right: 50%;
-            top: 33%;
-            color:blue;
+        .layout-container {
+            width: min(1000px, 100%);
+         margin: 0 auto;
+         columns: 3 300px;
+         column-gap: 10px;
         }
     </style>
 </head>
 <body>
-    <div>
-        <a href="login template/login.html">
-            <p id="login">Login template</p>
-        </a>
-        <a href="index.html">
-            <p id="homepage">Home</p>
-        </a>
-        <a href="clickergame/clickergame.html">
-            <p id="Clicker">Clicker game</p>
-        </a>
-        <p id="projects"><i>Projects:</i></p>
-    </div>
+<div class="layout-container">
+    <a href="clickergame/clickergame.html"><img width="300px" src="/pictures/clicker-game.png"></a>
+    <a href = login-template/login.html><img width="300px" src="/pictures/login-pic.png"></a>
+    <img width="300px" src="/pictures/test1.png">
+    <img width="300px" src="/pictures/test2.png">
+    <img width="300px" src="/pictures/test3.png">
+    <img width="300px" src="/pictures/test4.png">
+    <img width="300px" src="/pictures/test5.png">
+    <img width="300px" src="/pictures/test6.png">
+    <img width="300px" src="/pictures/test7.png">
+</div>
 </body>
 </html>
-
-<head>
-    <style>
-        #troll{
-            position: absolute;
-            top: 87%;
-            right: 0;
-            width: 160px;
-        }
-    </style>
-</head>
-</head>
-<body>
-    <img id="troll" src="bilder/troll.png">
-</body>
